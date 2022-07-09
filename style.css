@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    background-color: #FFC3C3;
+    position: relative;
+    width: 1574.64px;
+    height: 1080px;
+}
+
+.main
+{
+    width: 400px;
+    height: 838px;
+    background-color: #FFFFFF;
+    position: absolute;
+    left: 587px;
+    top: 121px;
+    border: 1px solid #E7E6EB;
+    box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.body
+{
+    margin: 0px 40px;
+
+}
+
+.price
+{
+    position: absolute;
+    top: 322px;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: #333333;
+}
+
+.title
+{
+    position: absolute;
+    top: 376px;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #333333;
+}
+
+.text
+{
+    position: absolute;
+    top: 412px;
+    width: 320px;
+    height: 68px;
+    font-style: normal;
+    font-weight: 400;
+    font-family:'Roboto';
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.choose
+{
+    position: absolute;
+    height: 24px;
+    top: 504px;
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #666666;
+}
+
+.dots
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 544px;
+    height: 40px;
+    width: 200px;
+}
+
+.dot-1
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #EE4444;
+    border: 4px solid #000000;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.dot-2
+{
+    position: absolute;
+    left: 56px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #3C81F6;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.dot-3
+{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 112px;
+    border-radius: 50%;
+    background: #000000;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.orange
+{
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    top: 616px;
+    border: none;
+    background: #FBBF23;
+    border-radius: 8px;
+   
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+    
+}
+
+.BuyNOw
+{
+    position: absolute;
+    width: 320px;
+    height: 55px;
+    top: 687px;
+    border: 1px solid #61A5FA;
+    border-radius: 8px;
+
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #333333;
+    cursor: pointer;
+}
+
+.read
+{
+    position: absolute;
+    width: 95px;
+    height: 24px;
+    top: 774px;
+
+    font-family:'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #61A5FA;
+}
